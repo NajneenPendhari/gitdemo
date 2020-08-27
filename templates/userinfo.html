@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+<body>
+<center>
+    <h1>User Registration</h1>
+</center>
+<hr>
+<br/><br/>
+<form method="post" action="http://localhost:1828/save/">
+    First Name : <input type="text" name="fname" id="fname"></input><br/><br/>
+    Last Name : <input type="text" name="lname" id="lname"></input><br/><br/>
+    Gender : <input type="radio" name="gender" value="m" id="male">Male
+    <input type="radio" name="gender" value="f" id="female">Female<br/><br/>
+    Address :
+    <select name="address">
+            <option>--Select--</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Sangli</option>
+            <option>Kolhapur</option>
+    </select><br/><br/>
+
+    Skills:
+    <select multiple name="skills">
+        <option>--Select--</option>
+        <option>Python</option>
+        <option>DotNet</option>
+        <option>Java</option>
+        <option>Selenium</option>
+    </select><br/><br/>
+Courses :<input type="checkbox" name="courses" value="py">Python
+    <input type="checkbox" name="courses" value="java">Java
+    <input type="checkbox" name="courses" value="au"> AUTOMATION <br/><br/>
+    <input type="submit"><br/><br/>
+</form>
+
+</body>
+</html>
