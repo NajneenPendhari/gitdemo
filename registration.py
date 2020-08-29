@@ -3,6 +3,7 @@ app = Flask(__name__)
 
 #Index page najnennen coding
 print('hii')
+#Dev 2 -ANUpATIL
 @app.route("/registration")
 def welcome_page():
     return render_template('userinfo.html')
