@@ -1,7 +1,8 @@
 from flask import Flask,render_template,request
 app = Flask(__name__)
 
-
+#Index page najnennen coding
+print('hii')
 @app.route("/registration")
 def welcome_page():
     return render_template('userinfo.html')
